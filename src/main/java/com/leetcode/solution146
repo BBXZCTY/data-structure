@@ -1,0 +1,33 @@
+LRUCache
+insert into the tail
+
+put 1,1
+dummyhead-->1-->dummytail
+
+put 2,2
+dummyhead-->2-->1-->dummytail
+
+put 3,3
+dummyhead-->3-->2-->1-->dummytail
+
+put 4,4
+dummyhead-->4-->3-->2-->1-->dummytail
+
+put 5,5
+dummyhead-->5-->4-->3-->2-->1-->dummytail
+
+get 1
+dummyhead-->1-->5-->4-->3-->2-->dummytail
+
+put 6,6
+dummyhead-->6-->1-->5-->4-->3-->2(evicts)-->dummytail
+dummyhead-->6-->1-->5-->4-->3-->dummytail
+
+put 7,7
+dummyhead-->7-->6-->1-->5-->4-->3(evicts)-->dummytail
+dummyhead-->7-->6-->1-->5-->4-->dummytail
+
+
+
+
+
