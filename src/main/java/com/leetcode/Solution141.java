@@ -81,8 +81,6 @@ public class Solution141 {
         System.out.println(l1.toString());
 
 
-
-
     }
 
 
