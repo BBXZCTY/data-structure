@@ -7,9 +7,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import static java.math.BigDecimal.ROUND_HALF_UP;
 
 /**
- * @Author: hfr
- * @Date: 2020-05-28 06:42
- * @Version 1.0
  * 规则：
  * 15元底牌，第一轮可以看牌，蒙牌5元起，看牌5*2元起，下一个玩家不能小于上一个玩家，如果蒙牌>=5元，看牌>=10元，封顶100元，轮数不限制。
  * 如果场上还剩三个极其以上玩家，连续蒙牌三轮之后，可以看其中一位玩家的牌，如果还剩两个玩家，随时可以看对方的牌。
