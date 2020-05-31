@@ -77,9 +77,8 @@ public class Solution141 {
         solution041.put(l1, 2);
         solution041.put(l1, 0);
         solution041.put(l1, 4);
+
         System.out.println(l1.toString());
-
-
 
 
     }
